@@ -1,0 +1,26 @@
+<div class="container" style="margin-bottom: 60px">
+  <div class="row">
+    <div class="col-lg-4 col-md-6  mb-4" *ngFor="let product of products">
+     <app-product [product]="product" (add)="onAdded($event)" (remove)="onRemoved($event)"></app-product>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center mb-3">
+                <span>Total price : {{allPrice}}</span>
+            </div>
+            <div class="col-md-4 text-center mb-3">
+                <span>Cart</span>
+            </div>
+            <div class="col-md-4 text-center mb-3">
+                <div>
+                    <i class="flaticon-shopping-cart">
+                        <span class="dropdown-count">{{t}}</span>
+                    </i>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

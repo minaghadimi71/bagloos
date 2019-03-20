@@ -23,7 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/263048-miscellaneous-elements/font/flaticon.css",
+              "src/styles.css",
+              "src/assets/bootstrap-4.3.1-dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },

@@ -1,0 +1,27 @@
+.footer{
+    padding: 20px 0;
+    background-color: gainsboro;
+    color: gray;
+}
+.footer .flaticon-shopping-cart {
+    position: relative;
+}
+.footer .flaticon-shopping-cart .dropdown-count {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 10px;
+    right: auto;
+    line-height: 1.43;
+    min-width: 19px;
+    padding: 2px 6px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    text-shadow: none;
+    top: -10px;
+    vertical-align: text-top;
+    white-space: nowrap;
+    z-index: 1;
+}

@@ -28,5 +28,4 @@ export class ProductsComponent implements OnInit {
     this.t--;
     this.allPrice -= product.price;
   }
-
 }

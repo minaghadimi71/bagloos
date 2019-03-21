@@ -113,5 +113,8 @@ padding-top: 10px;
         position: relative;
         left: 15%;
     }
-
+    .product_button {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }

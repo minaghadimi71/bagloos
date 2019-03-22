@@ -12,4 +12,7 @@ products: Product[] = PRODUCTS;
   getProducts(): Observable<Product[]> {
     return of(this.products);
   }
+  getProduct(id: number): Observable<Product> {
+    return of(this.products[id - 1]);
+  }
 }

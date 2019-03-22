@@ -5,7 +5,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     line-height: 1.25;
 }
@@ -13,4 +12,23 @@ h6 {
 p {
     color: #51545f;
     font-size: 16px;
+}
+.button{
+    background-color: #ffa4c5;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: palevioletred;
+}
+.button:focus{
+    outline: none;
+    background-color: palevioletred;
+}
+.button:active{
+    outline: none;
+    background-color: palevioletred;
 }

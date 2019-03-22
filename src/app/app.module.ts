@@ -5,6 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductComponent } from './products/product/product.component';
+import { CommentComponent } from './products/product/comment/comment.component';
+import { Comment1Component } from './products/product/comment/comment1/comment1.component';
+import {FormsModule} from '@angular/forms';
+import { CommentsComponent } from './products/product/comment/comments/comments.component';
 
 
 @NgModule({
@@ -12,11 +16,15 @@ import { ProductComponent } from './products/product/product.component';
     AppComponent,
     ProductsComponent,
     ProductComponent,
-
+    CommentComponent,
+    Comment1Component,
+    CommentsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,39 @@
+.comments{
+    padding: 30px 180px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+@media (max-width: 992px) {
+    .comments{
+        padding: 50px;
+    }
+
+}
+.comments-item{
+    box-shadow: 2px 3px 18px gainsboro;
+    width: 100%;
+    padding: 25px 40px;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+    height: auto;
+}
+.comments-item h3{
+    position: relative;
+    color: #4e555b;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+
+}
+.comments-item h3:after{
+    content: '';
+    background: #ff73a5;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 200px;
+    height: 2px;
+    overflow: hidden;
+}
+.comments-item p{
+    overflow: hidden;
+    color: #4e555b;
+}

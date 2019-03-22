@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductComponent } from './products/product/product.component';
 import { CommentComponent } from './products/product/comment/comment.component';
-import { Comment1Component } from './products/product/comment/comment1/comment1.component';
 import {FormsModule} from '@angular/forms';
 import { CommentsComponent } from './products/product/comment/comments/comments.component';
+import {Comment1Component} from './products/product/comment/comments/comment1/comment1.component';
 
 
 @NgModule({

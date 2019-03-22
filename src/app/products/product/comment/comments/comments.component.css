@@ -6,6 +6,18 @@
     .comments{
         padding: 50px;
     }
+    .comments-item h3:after{
+        display: none;
+    }
+    .comments-item h3:before{
+        content: '';
+        background: #ff73a5;
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        width: 60px;
+        height: 2px;
+    }
 
 }
 .comments-item{
@@ -15,6 +27,7 @@
     border: 2px solid gainsboro;
     border-radius: 15px;
     height: auto;
+    margin-bottom:15px;
 }
 .comments-item h3{
     position: relative;
@@ -31,7 +44,6 @@
     left: 0;
     width: 200px;
     height: 2px;
-    overflow: hidden;
 }
 .comments-item p{
     overflow: hidden;

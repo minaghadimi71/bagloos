@@ -1,7 +1,7 @@
 .comment {
     background-attachment: fixed;
     background-position: center center;
-    background-image: url('./bg-pattern.jpg');
+    background-image: url('../../../../assets/images/bg-pattern.jpg');
     position: relative;
     background-size: cover;
     z-index: 1;
@@ -32,7 +32,6 @@
     border-radius: 20px;
 }
 .title{
-    margin-left: 30px;
     font-family: 'Shadows Into Light Two', cursive;
     box-shadow: 2px 3px 18px gainsboro;
     padding: 25px 40px;
@@ -53,3 +52,12 @@
     padding-bottom: 13px;
 }
 
+@media(max-width: 768px) {
+    .product_image{
+        margin-bottom: 20px;
+    }
+    .comment_item{
+        position: relative;
+        width: 70%;
+    }
+}

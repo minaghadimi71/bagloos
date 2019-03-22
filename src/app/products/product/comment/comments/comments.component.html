@@ -1,10 +1,11 @@
+<app-comment1 (comment)="getComment($event)"></app-comment1>
 <div class="comments">
   <div class="row">
     <div class="col-sm-12">
       <h1 class="mb-4 text-center">Comments</h1>
-      <div class="comments-item">
-        <h3>mina</h3>
-        <p>poiuhygtloiuhygtrtyuiopiuhghuikoiugytfdreswaertfyguijok</p>
+      <div class="comments-item" *ngFor="let comment of comments">
+        <h3>{{comment.name}}</h3>
+        <p>{{comment.message}}</p>
       </div>
     </div>
   </div>
